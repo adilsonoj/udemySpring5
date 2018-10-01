@@ -36,6 +36,8 @@ public class DataInitializer implements ApplicationListener<ContextRefreshedEven
 		}
 		
 		System.out.println(userRepository.findByName("Gon").getEmail());
+		System.out.println(userRepository.findByEmailQuery("adilsonoj@yahoo.co.b").getName());
+//		System.out.println(userRepository.findByJpql());
 		
 
 	}

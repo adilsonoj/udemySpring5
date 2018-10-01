@@ -6,7 +6,7 @@ import javax.persistence.Id;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+@Document //Document para Mongo, em Mysql usa @Entity
 public class User {
 	@Id
 	private String id;
